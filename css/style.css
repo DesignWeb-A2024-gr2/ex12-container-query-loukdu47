@@ -1,0 +1,87 @@
+/**************************************
+Style de base, à ne pas toucher!
+**************************************/
+
+/** Style du body **/
+body {
+  margin:0;  
+  text-align: center;
+}
+
+
+/** Style des principales sections **/
+header {
+    height: 5vh;
+    background-color: rgb(35, 30, 30);
+    color:white;
+}
+
+nav {
+    background-color: rgb(9, 140, 44);
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    margin: 20px 10px;
+}
+
+
+/** Styles des titres **/
+h2 {
+    color:rgb(9, 46, 140);
+}
+
+h3 {
+    font-size: 1em;
+}
+
+
+/** Styles des éléments **/
+
+img {
+    width: 100cqw;
+    border-radius: 5%;
+}
+
+
+/** Styles des éléments identifés avec un id **/
+#contenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#historique  {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#contenu_gauche, #contenu_droite {
+    width:450px;
+}
+
+
+/** Styles appliqués sur des classes **/
+
+.carte {
+    margin: auto;
+    width:calc(100cqw - 40px);   /***** Question ***/
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#historique .carte {
+    max-width: 250px;
+}
+
+
+
+
+
+
+
+
