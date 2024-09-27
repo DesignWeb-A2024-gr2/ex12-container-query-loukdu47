@@ -1,0 +1,57 @@
+#contenu_droite {
+
+    container-type: inline-size;
+}
+#contenu_gauche {
+
+    container-type: inline-size;
+}
+#contenu_principal {
+
+    container-type: inline-size;
+}
+.carte {
+
+    container-type: inline-size;
+}
+@container (width > 450px) {
+
+h3 {
+
+    font-size: 2em;
+}
+
+}
+@container (width >= 400px) and (width <= 500px) {
+
+h3 {
+    display: inline-block;
+    text-align: left;
+    width: 45cqmin;
+    vertical-align: top;
+}
+img {
+    width: 50cqmin;
+}
+
+}
+@container (width < 425px) {
+    p {
+        visibility : hidden;
+    }
+}
+@media screen and (width <= 1450px) {
+
+  #contenu_gauche {
+    display: none;
+  }  
+
+}
+@media screen and (width <= 950px){
+
+#contenu_droite {
+    display: none;
+}
+}
+    
+
